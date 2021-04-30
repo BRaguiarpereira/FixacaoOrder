@@ -13,5 +13,11 @@ namespace FixacaoOrder.Entities
         {
 
         }
+
+        public Product(string name, double price)
+        {
+            Name = name;
+            Price = price;
+        }
     }
 }
